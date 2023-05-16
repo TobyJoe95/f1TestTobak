@@ -1,0 +1,19 @@
+#teamFormContainer{
+    position: absolute;
+    margin: auto;
+   
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    background-color: #011627;
+    color: white;
+    padding :10px;
+    border-radius: 10px;
+    
+}
+input{
+    height: 30px;    
+}

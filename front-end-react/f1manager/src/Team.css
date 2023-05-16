@@ -1,0 +1,19 @@
+#team{
+    width: auto;
+    border-radius: 10px;
+    background: #6f0e18;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    filter: drop-shadow(0 0 0.75rem black);
+    color: white;
+    font-weight: 600;
+    
+}
+
+.teamDataContainer{
+    align-items: center;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding:10px;
+}

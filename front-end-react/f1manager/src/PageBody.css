@@ -1,0 +1,72 @@
+:root{
+    background-color: #F6F7F8;
+}
+.NavButton{
+    border-radius: 10px;
+    border: 0px;
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+    height: 50px;
+    width: 100px;
+    outline: none;
+    transition-duration: 200ms;
+    font-size: large;
+    font-weight: 600;
+}
+.NavButton:hover{
+    color: black;
+    background-color: white;
+}
+#Main{
+    background-color: black;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+#background{
+    background-color:#E5E5E5 ; 
+    height: 100vh;
+}
+#topDecoration{
+height:120px;
+margin: auto;
+background-color: #eFeFeF;
+opacity: 1;
+background-image:  repeating-linear-gradient(45deg, #000000 25%, transparent 25%, transparent 75%, #000000 75%, #000000), repeating-linear-gradient(45deg, #000000 25%, #eFeFeF 25%, #eFeFeF 75%, #000000 75%, #000000);
+background-position: 0 0, 40px 40px;
+background-size: 80px 80px;
+}
+.listButton{
+    width: 150px;
+    height: 60px;
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-size: large;
+    border-radius: 0px;
+    outline: none;
+    transition-duration: 200ms;
+    justify-self: center;
+}
+.listButton:hover{
+    background-color: white;
+    color: black;
+}
+#buttonContainer{
+    background-color: #011627;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height:50vh;
+
+    
+}
