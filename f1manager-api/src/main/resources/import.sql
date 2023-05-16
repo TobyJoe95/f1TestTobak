@@ -1,0 +1,1 @@
+--INSERT INTO teams(id,name,founded,number_Of_Wc,paid) VALUES (1,'Williams','2007-12-03','10','true')
