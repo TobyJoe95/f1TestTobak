@@ -1,5 +1,6 @@
 # f1TestTobak
 Futtatáshoz Szükséges:  Maven, React
+
 A zip file-t letöltése után a front-end-react mappában található f1 manager mappában indítsunk el egy console-t, majd futtassuk az alábbi két parancsot:
 npm install
 npm start
